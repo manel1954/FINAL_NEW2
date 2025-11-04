@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directorio del repositorio
-REPO_DIR="/home/pi/ACTUALIZACIONES_FINAL_NEW"
+REPO_DIR="/home/pi/ACTUALIZACIONES_FINAL_NEW2"
 STATUS_FILE="/home/pi/status.ini"
 ACTUALIZACIONES_TXT="$REPO_DIR/actualizaciones.txt"
 FORM_SCRIPT="/home/pi/A108/qt/./qt_actualizacion"  # Ruta al script que abre tu formulario Qt
