@@ -32,7 +32,6 @@ if [ -z "$mi_actualizacion" ]; then
     echo "Advertencia: No se pudo leer la línea 130 de $STATUS_FILE"
     exit 1
 fi
-
 # Comparar ambas variables
 if [ "$actualizacion" != "$mi_actualizacion" ]; then
     # Mostrar formulario Qt con mensaje de actualización disponible
