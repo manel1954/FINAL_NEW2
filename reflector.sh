@@ -20,6 +20,7 @@ MARRON="\33[38;5;138m"
 			
 			#cp /home/pi/A108/YSFHosts.txt /home/pi/YSFClients/YSFGateway/
 
+#wget --user-agent="YSFGateway" https://hostfiles.refcheck.radio/YSFHosts.txt
 
 			sleep 3
 			
