@@ -27,7 +27,7 @@ sleep 20
 
 sudo mv /home/pi/YSFHosts.txt /home/pi/YSFClients/YSFGateway/
 			sleep 3
-			
+	read a		
 			clear
 			echo "${VERDE}**********************************"
 					echo "*  ACTUALIZANDO REFLECTORES YSF  *"
