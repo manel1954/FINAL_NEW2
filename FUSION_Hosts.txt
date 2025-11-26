@@ -21,5 +21,5 @@ ES-EA-Distrito-4            62980             YSF Distrito 4              212.23
 ES-REM-SPAIN                15642             ES-REM-SPAIN.               80.211.163.139  42000   000
 ES-ALCOYANOS                58511             ALCOYANOS                   82.223.204.29   42395   000
 XX-EUROPELINK               00007             Europelink                  161.97.73.43    42000   000
-ANDALUCIA                   21887             ANDALUCIA                   57.131.25.19     42000   000
+ES-ANDALUCIA                21887             ANDALUCIA                   57.131.25.19     42000   000
 ES-MALLORCA                 53278             MALLORCA                    82.223.54.35    42000   000
