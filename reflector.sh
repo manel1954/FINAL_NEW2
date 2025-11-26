@@ -20,8 +20,8 @@ MARRON="\33[38;5;138m"
 			
 			sudo rm /home/pi/YSFHosts.txt
 wget --user-agent="YSFGateway" https://hostfiles.refcheck.radio/YSFHosts.txt
-sudo cp /home/pi/YSFHosts.txt /home/pi/YSFClients/YSFGateway/
-sudo chmod 777 /home/pi/YSFClients/YSFGateway/YSFHosts.txt
+#sudo cp /home/pi/YSFHosts.txt /home/pi/YSFClients/YSFGateway/
+#sudo chmod 777 /home/pi/YSFClients/YSFGateway/YSFHosts.txt
 
 			sleep 3
 			
