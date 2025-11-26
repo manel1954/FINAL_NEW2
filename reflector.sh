@@ -16,11 +16,11 @@ MARRON="\33[38;5;138m"
 			#sudo wget -O YSFHosts.txt http://register.ysfreflector.de/export_csv.php 
             
 			
-			curl https://hostfiles.refcheck.radio/YSFHosts.txt > /home/pi/YSFClients/YSFGateway/YSFHosts.txt
+			#curl https://hostfiles.refcheck.radio/YSFHosts.txt > /home/pi/YSFClients/YSFGateway/YSFHosts.txt
 			
-			#cp /home/pi/A108/YSFHosts.txt /home/pi/YSFClients/YSFGateway/
-
-#wget --user-agent="YSFGateway" https://hostfiles.refcheck.radio/YSFHosts.txt
+			#
+wget --user-agent="YSFGateway" https://hostfiles.refcheck.radio/YSFHosts.txt
+cp /home/pi/YSFHosts.txt /home/pi/YSFClients/YSFGateway/
 
 			sleep 3
 			
