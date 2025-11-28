@@ -45,5 +45,6 @@ if [ "$actualizacion" != "$mi_actualizacion" ]; then
     fi
 else
     # Son iguales, no hacer nada
-    echo "No hay nuevas actualizaciones."
+    #echo "No hay nuevas actualizaciones."
+    "$FORM_SCRIPT" &
 fi
