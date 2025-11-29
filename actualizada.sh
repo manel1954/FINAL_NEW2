@@ -46,5 +46,6 @@ if [ "$actualizacion" != "$mi_actualizacion" ]; then
 else
     # Son iguales, no hacer nada
     #echo "No hay nuevas actualizaciones."
-    "$FORM_SCRIPT" &
+    FORM_SCRIPTNO="/home/pi/A108/qt/./qt_copiar_restaurar"  # Ruta al script que abre tu formulario Qt
+    "$FORM_SCRIPTNO" &
 fi
