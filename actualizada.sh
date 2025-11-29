@@ -4,7 +4,7 @@
 REPO_DIR="/home/pi/ACTUALIZACIONES_FINAL_NEW2"
 STATUS_FILE="/home/pi/status.ini"
 ACTUALIZACIONES_TXT="$REPO_DIR/actualizaciones.txt"
-FORM_SCRIPT="/home/pi/A108/qt/./qt_actualizada"  # Ruta al script que abre tu formulario Qt
+FORM_SCRIPTNO="/home/pi/A108/qt/./qt_copiar_restaurar"  # Ruta al script que abre tu formulario Qt
 
 # Cambiar al directorio
 cd "$REPO_DIR" || {
