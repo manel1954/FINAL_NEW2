@@ -23,4 +23,4 @@ XX-EUROPELINK               00007             Europelink                  161.97
 ES-ANDALUCIA                21887             ANDALUCIA                   57.131.25.19     42000  000
 ES-MALLORCA                 53278             MALLORCA                    82.223.54.35    42000   000
 ES-WiresX                   21187             Wires-X-Spain               82.223.204.29   42001   000
-ES-EA C4FM Spain            22401             (YCS224)                    212.237.3.141   42000   000
+ES-EA-C4FM-Spain            22401             (YCS224)                    212.237.3.141   42000   000
