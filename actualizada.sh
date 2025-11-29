@@ -36,8 +36,8 @@ fi
 if [ "$actualizacion" != "$mi_actualizacion" ]; then
     # Mostrar formulario Qt con mensaje de actualización disponible
     # Puedes usar un script externo que lance tu aplicación Qt (PyQt, Qt con C++, etc.)
-    if [ -f "$FORM_SCRIPT" ]; then
-        "$FORM_SCRIPT" &
+    if [ -f "$FORM_SCRIPTNO" ]; then
+        "$FORM_SCRIPTNO" &
     else
         echo "Formulario Qt no encontrado en $FORM_SCRIPT"
         # Alternativa: usar un mensaje básico con zenity si Qt no está disponible
