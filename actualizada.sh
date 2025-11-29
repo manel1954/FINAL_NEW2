@@ -42,6 +42,8 @@ if [ "$actualizacion" != "$mi_actualizacion" ]; then
         echo "Formulario Qt no encontrado en $FORM_SCRIPT"
         # Alternativa: usar un mensaje básico con zenity si Qt no está disponible
         # zenity --info --text="Tienes una actualización disponible."
+            FORM_SCRIPTNO="/home/pi/A108/qt/./qt_copiar_restaurar"  # Ruta al script que abre tu formulario Qt
+    "$FORM_SCRIPTNO" &
     fi
 else
     # Son iguales, no hacer nada
