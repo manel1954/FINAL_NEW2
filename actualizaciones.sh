@@ -47,6 +47,6 @@ if [ "$actualizacion" != "$mi_actualizacion" ]; then
 else
     # Son iguales, no hacer nada
     echo "No hay nuevas actualizaciones."
-    #FORM_SCRIPT="/home/pi/A108/qt/./qt_actualizada"
-    #"$FORM_SCRIPT" &
+    FORM_SCRIPT="/home/pi/A108/qt/./qt_copiar_restaurar"
+    "$FORM_SCRIPT" &
 fi
