@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo killall -9 qt_actualizacion
+sudo killall -9 qt_actualizada
 # Directorio del repositorio
 REPO_DIR="/home/pi/ACTUALIZACIONES_FINAL_NEW2"
 STATUS_FILE="/home/pi/status.ini"
