@@ -2,11 +2,15 @@
 
 sudo killall -9 qt_actualizacion
 sudo killall -9 qt_actualizada
+
 # Directorio del repositorio
 REPO_DIR="/home/pi/ACTUALIZACIONES_FINAL_NEW2"
 STATUS_FILE="/home/pi/status.ini"
 ACTUALIZACIONES_TXT="$REPO_DIR/actualizaciones.txt"
 FORM_SCRIPT="/home/pi/A108/qt/./qt_actualizacion"  # Ruta al script que abre tu formulario Qt
+
+# Parámetro para saber si se llamó desde Qt (botón)
+DESDE_BOTON=${1:-false}
 
 # Cambiar al directorio
 cd "$REPO_DIR" || {
@@ -34,20 +38,22 @@ if [ -z "$mi_actualizacion" ]; then
     echo "Advertencia: No se pudo leer la línea 130 de $STATUS_FILE"
     exit 1
 fi
+
 # Comparar ambas variables
 if [ "$actualizacion" != "$mi_actualizacion" ]; then
-    # Mostrar formulario Qt con mensaje de actualización disponible
-    # Puedes usar un script externo que lance tu aplicación Qt (PyQt, Qt con C++, etc.)
+    # Hay actualización disponible - mostrar formulario de actualización
     if [ -f "$FORM_SCRIPT" ]; then
         "$FORM_SCRIPT" &
     else
         echo "Formulario Qt no encontrado en $FORM_SCRIPT"
-        # Alternativa: usar un mensaje básico con zenity si Qt no está disponible
-        # zenity --info --text="Tienes una actualización disponible."
     fi
 else
-    # Son iguales, no hacer nada
+    # Son iguales, no hay actualizaciones
     echo "No hay nuevas actualizaciones."
-    FORM_SCRIPT="/home/pi/A108/qt/./qt_actualizada"
-    "$FORM_SCRIPT" &
+    
+    # Solo mostrar qt_actualizada si se llamó desde el botón de Qt
+    if [ "$DESDE_BOTON" = "true" ]; then
+        FORM_SCRIPT="/home/pi/A108/qt/./qt_actualizada"
+        "$FORM_SCRIPT" &
+    fi
 fi
