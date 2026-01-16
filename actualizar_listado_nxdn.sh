@@ -21,7 +21,7 @@ MARRON="\33[38;5;138m"
 
 
 			cd /home/pi/
-            wget https://hostfiles.refcheck.radio/NXNHosts.txt
+            wget --user-agent="NXDNGateway" https://hostfiles.refcheck.radio/NXNHosts.txt
     sudo mv /home/pi/NXNHosts.txt /home/pi/NXDNClients/NXDNGateway/
 			sleep 3		
 
