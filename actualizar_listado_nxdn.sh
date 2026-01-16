@@ -14,7 +14,7 @@ cd /home/pi/
 wget --user-agent="NXDNGateway" https://hostfiles.refcheck.radio/NXDNHosts.txt
 
     # Mover el nuevo archivo
-    sudo mv /home/pi/NXDNHosts.txt /NXDNClients/NXDNGateway/
+    sudo mv /home/pi/NXDNHosts.txt /home/pi/NXDNClients/NXDNGateway/
     
     echo -e "${VERDE}NXDNHosts.txt actualizado correctamente${GRIS}"
     
