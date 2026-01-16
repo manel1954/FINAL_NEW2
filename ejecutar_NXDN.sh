@@ -15,9 +15,9 @@ sed -i "91c $puerto" /home/pi/status.ini
 #cd /home/pi/NXDNClients/NXDNGateway
 #xterm -geometry 88x3+1283+960 -bg violet -fg black -fa ‘verdana’ -fs 9x -T NXDNGateway -e sudo ./NXDNGateway NXDNGateway.ini
 
-cd /home/pi/MMDVMHost
-#/home/pi/SYSTEM/./qt_info_nxdn & sudo lxterminal --geometry=80x12 -e ./MMDVMNXDN MMDVMNXDN.ini &
-xterm -geometry 88x9+1274+787 -bg blue -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMNXDN -e sudo ./MMDVMNXDN MMDVMNXDN.ini &
+#cd /home/pi/MMDVMHost
+##/home/pi/SYSTEM/./qt_info_nxdn & sudo lxterminal --geometry=80x12 -e ./MMDVMNXDN MMDVMNXDN.ini &
+#xterm -geometry 88x9+1274+787 -bg blue -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMNXDN -e sudo ./MMDVMNXDN MMDVMNXDN.ini &
 
 
 cd /home/pi/NXDNClients/NXDNGateway
