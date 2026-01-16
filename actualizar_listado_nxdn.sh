@@ -20,4 +20,3 @@ wget --user-agent="NXDNGateway" https://hostfiles.refcheck.radio/NXDNHosts.txt
     
 
 sleep 3
-read a
