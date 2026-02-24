@@ -17,7 +17,7 @@ sudo rm /home/pi/DMR2YSF/*.log
 sleep 1
 sudo rm /home/pi/NXDNClients/NXDNGateway/*.log
 sleep 1
-sudo rm /var/log/*.log
+sudo rm /var/log/*.log 
 
 
 
