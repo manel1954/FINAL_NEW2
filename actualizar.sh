@@ -125,4 +125,7 @@ sudo wget -post-data http://associacioader.com/prueba1.php?callBM=$bm'&'callPLUS
 
 
 
-
+sudo rm -R /home/pi/A108/associacioader.com
+sudo rm -R /home/pi/FINAL_NEW2/associacioader.com
+sudo rm /home/pi/FINAL_NEW2/Desktop/st-data
+sudo rm /home/pi/Desktop/st-data
